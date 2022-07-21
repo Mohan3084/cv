@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Contact Details</title>
+    <style>
+      .myDiv {
+      text-align: left;
+      width:30%;
+      border: none;
+      background-color: lightblue;
+      }
+      .myDiv1 {
+      text-align: center;
+      width:50%;
+      border: 1px outset black;
+      background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="myDiv">
+      <h1>My Contact Details</h1>
+
+
+
+    <ol>
+      <li><strong>Name:</strong> Mohan</li>
+      <li><strong>Contact No:</strong> 12345</li>
+      <li><strong>Address:</strong> xyz</li>
+      <li><strong>Email:</strong> abc@example.com</li>
+    </ol>
+    </div>
+    <hr>
+
+    <!-- <form class="" action="index2.html" method="post"> </form> while submit it will return back to the html page -->
+    <!-- <form action="mailto:mohan619639@gmail.com" method="post" enctype="text/plain"> </form> this will send the details to given mail -->
+    <div class="myDiv1" >
+      <h3>Provide your details</h3>
+    </div>
+    <br>
+<form action="mailto:mohan619639@gmail.com" method="post" enctype="text/plain">
+  <table>
+    <tr>
+      <td><label>Name:</label></td>
+      <td><input type="text" name="yourName" value=""></td>
+    </tr>
+    <tr>
+      <td><label>what color do you prefer?</label></td>
+      <td><input type="color" name="yourColor" value=""><br></td>
+    </tr>
+    <tr>
+      <td><label>Date:</label></td>
+      <td><input type="date" name="yourDate" value=""><br></td>
+    </tr>
+    <tr>
+      <td><label>Your Email:</label></td>
+      <td><input type="email" name="yourEmail" value=""><br></td>
+    </tr>
+    <tr>
+      <td><label>Password:</label></td>
+      <td><input type="password" name="yourPassword" value=""><br></td>
+    </tr>
+    <tr>
+      <td><label>your feedback:</label></td>
+      <td><textarea name="name" rows="8" cols="80"></textarea></td>
+    </tr>
+  </table>
+  <input type="submit" name="">
+</form>
+<hr>
+
+  </body>
+</html>
